@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.menu-principal {
+  background-color: #222322;
+  height: 60px;
+  width: 100%;
+}
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.logo {
+  float: left;
+  padding: 0px;
+  width: 70%;
+}
+.redes-sociais li {
+  width: 20%;
+  float: right;
+  list-style: none;
+  margin-left: 7px;
+}
+ul {
+  padding: 0px !important;
+}
+.redes-sociais {
+  width: 20%;
+  float: right;
+}
+.li1 {
+  margin-top: 5px;
+}
+.header-2 {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.menu {
+  width: 100%;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  color: #222322;
+  height: 32px;
+}
+.menu ul li:hover {
+  border-bottom: 2px #0072ce solid;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.menu ul li a:hover {
+  color: #0072ce;
+}
+
+.menu ul li a {
+  color: #222322;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 7px;
+  text-transform: uppercase;
+}
+.menu-urls {
+  border-bottom: 1px #909090 solid;
+  color: #222322;
+  height: 50px;
+}
+.Orientação {
+  width: 100%;
+}
+.Onde ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 15px;
+  margin-left: 5px;
+  color: #222322;
+}
+.Onde ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 15px;
+  
+}
+.Onde ul li a:hover {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 15px;
+  margin-left: 5px;
+  color: #0072ce;
+}
