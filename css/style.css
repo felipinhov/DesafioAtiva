@@ -1,51 +1,67 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+img {
+  border-style: none;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
 }
-.menu-principal {
-  background-color: #222322;
-  height: 60px;
-  width: 100%;
-}
 main {
   margin: 0 auto;
   width: 980px;
   position: relative;
+  display: block;
 }
+ul {
+  padding: 0px !important;
+}
+/*Início do top e das redes sociais*/
+.menu-principal {
+  background-color: #222222;
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+.logo {
+  float: left;
+  width: 70%;
+  padding: 0px;
+}
+.redes-sociais ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 30px;
+}
+.redes-sociais {
+  width: 25%;
+  float: right;
+  list-style: none;
+  margin-left: 10px;
+}
+.li1 {
+  margin-top: 5px;
+}
+/*Fim das redes sociais e do topo*/
+
+/*Início do Menu*/
 .col-100 {
   width: 100%;
   float: left;
   position: relative;
 }
-.logo {
-  float: left;
-  padding: 0px;
-  width: 70%;
-}
-.redes-sociais li {
-  width: 20%;
-  float: right;
-  list-style: none;
-  margin-left: 7px;
-}
-ul {
-  padding: 0px !important;
-}
-.redes-sociais {
-  width: 20%;
-  float: right;
-}
-.li1 {
-  margin-top: 5px;
-}
-.header-2 {
-  width: 980px;
+.menuinfo {
   margin: 0 auto;
-  padding: 0px;
 }
 .menu {
+  height: 30px;
   width: 100%;
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
 }
 .menu ul li {
   list-style: none;
@@ -61,7 +77,6 @@ ul {
 .menu ul li a:hover {
   color: #0072ce;
 }
-
 .menu ul li a {
   color: #222322;
   font-size: 14px;
@@ -73,31 +88,22 @@ ul {
   border-bottom: 1px #909090 solid;
   color: #222322;
   height: 50px;
+  margin-top: -4px;
 }
-.Orientação {
-  width: 100%;
+/*Fim do menu*/
+.quadro {
+  width: 98, 5vw;
+  height: 4vh;
+  border: 1px solid rgba(50, 100, 50, 05);
+  background: #ddddff;
+  display: flex;
+  justify-content: center;
+  alingn-itens: center;
+  flex-direction: row;
 }
-.Onde ul li a {
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 7px;
-  font-size: 15px;
-  margin-left: 5px;
-  color: #222322;
-}
-.Onde ul li {
-  list-style: none;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 7px;
-  font-size: 15px;
-  
-}
-.Onde ul li a:hover {
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 7px;
-  font-size: 15px;
-  margin-left: 5px;
-  color: #0072ce;
+.coluna {
+  max-width: 100%;
+  width: 10%;
+  float: left;
+  border: 1px solid rgba(100, 50, 50, 05);
 }
