@@ -127,8 +127,8 @@ td,
 th {
   border: 1px solid #606060;
   padding: -2px 5px -2px 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 tr:nth-child(even) {
   background-color: #9c9c9c;
 }
@@ -154,11 +154,13 @@ tr:nth-child(even) {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+/*Fim da tabela*/
+
+/*Apresentaçado dos dados*/
 .dados {
   padding-top: 60px;
   border-bottom: 1px solid #9c9c9c;
 }
-
 h1,
 h2,
 h3,
@@ -166,16 +168,16 @@ h4,
 h5,
 h6 {
   font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 h3 {
   text-align: center;
-  text-shadow: 2px 2px 4px #a1a1a1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.CarteiraRecomendada{
+.CarteiraRecomendada {
   text-align: center;
   padding: 25px 0px 25px 0px;
 }
-
 .carteira {
   background-color: #0072ce;
   border: none;
@@ -198,17 +200,17 @@ h3 {
   color: white;
   text-decoration: none;
 }
-.carteira-botao{
-  color:white;
+.carteira-botao {
+  color: white;
 }
-
+/*Fim dos dados e do botão carteira recomendada*/
 
 /*Pré-rodapé*/
 .semi-footer {
   text-align: center;
   padding-top: 10px;
   width: 100%;
-  background-color: #92c1e9;
+  background-color: #222222;
   color: white;
   font-size: medium;
 }
@@ -219,7 +221,6 @@ h3 {
 h4 {
   text-shadow: 1px 1px 1px #adadad;
 }
-
 .Capitais {
   text-align: center;
   padding-top: 25pt;
@@ -234,5 +235,27 @@ h4 {
 }
 .email {
   text-align: center;
-  padding-top: 15pt;
+  padding: 15pt 0px 20px 0px;
 }
+/*Pré rodapé fim*/
+
+/*Rodapé conquistas da ativa*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  text-align: center;
+}
+.page-footer font-small mdb-color lighten-3 pt-4 {
+  background-color: #222222;
+}
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #749abc;
+}
+/*Fim rodapé*/
